@@ -1,0 +1,16 @@
+Source: lernstick-xkb-data
+Section: x11
+Priority: extra
+Maintainer: Ronny Standtke <ronny.standtke@gmx.net>
+Build-Depends: debhelper (>= 9), config-package-dev
+Standards-Version: 3.7.3
+
+Package: lernstick-xkb-data
+Architecture: all
+Depends: xkb-data
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: adds some Mac specific keyboard layouts
+ We add some Mac specific keyboard layouts that support the usual Mac shortcuts
+ like cmd+C/cmd+V for copy&paste and accessing third level keys with the left
+ alt key.
