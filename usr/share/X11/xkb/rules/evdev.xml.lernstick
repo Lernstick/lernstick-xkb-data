@@ -4988,6 +4988,17 @@
         </variant>
         <variant>
           <configItem>
+            <name>ch_nodeadkeys</name>
+            <shortDescription>ch_nd</shortDescription>
+            <description>Deutsch (Schweiz, Mac Spezial, keine Tottasten)</description>
+            <languageList>
+              <iso639Id>ger</iso639Id>
+              <iso639Id>gsw</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>ch_fr</name>
             <shortDescription>ch_fr</shortDescription>
             <description>Français (Suisse, Mac Special)</description>

@@ -71,7 +71,7 @@ xkb_symbols "qwertz" {
 hidden partial alphanumeric_keys
 xkb_symbols "swiss" {
 
-    include "mac_special(basic)"
+    include "mac_special(qwertz)"
 
     # "@" via alt+G
     key.type[group1] = "FIVE_LEVEL_SEMIALPHABETIC_ALT";
@@ -111,6 +111,20 @@ xkb_symbols "ch" {
     include "mac_special(swiss)"
 
     name[group1] = "Deutsch (Schweiz, Mac Special)";
+};
+
+partial alphanumeric_keys
+xkb_symbols "ch_nodeadkeys" {
+
+    include "ch(de_mac)"
+    include "mac_special(swiss)"
+
+    // modify layout to not have any dead keys
+    key <AE12> { [ asciicircum, grave,  acute,      asciicircum      ] };
+    key <AD12> { [ diaeresis,   exclam, grave,      apostrophe       ] };
+    key <AB06> { [ n,           N,      asciitilde, enopencircbullet ] };
+
+    name[group1] = "Deutsch (Schweiz, Mac Special, keine Tottasten)";
 };
 
 partial alphanumeric_keys
