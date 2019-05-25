@@ -47,10 +47,7 @@ xkb_symbols "basic" {
     key <AE10> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE10>,mods=LevelThree,clearmods=Alt) ] };
     key <AE11> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE11>,mods=LevelThree,clearmods=Alt) ] };
     key <AE12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE12>,mods=LevelThree,clearmods=Alt) ] };
-    key <AD11> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AD11>,mods=LevelThree,clearmods=Alt) ] };
     key <AD12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AD12>,mods=LevelThree,clearmods=Alt) ] };
-    key <AC10> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AC10>,mods=LevelThree,clearmods=Alt) ] };
-    key <AC11> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AC11>,mods=LevelThree,clearmods=Alt) ] };
     key <AC12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AC12>,mods=LevelThree,clearmods=Alt) ] };
     key <LSGT> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<LSGT>,mods=LevelThree,clearmods=Alt) ] };
     key <AB08> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AB08>,mods=LevelThree,clearmods=Alt) ] };
