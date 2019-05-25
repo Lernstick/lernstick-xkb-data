@@ -1,3 +1,9 @@
+lernstick-xkb-data (3) lernstick-9; urgency=medium
+
+  * [dffdce] don't redirect umlaut keys (breaks CapsLock handling)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Sat, 25 May 2019 18:58:17 +0200
+
 lernstick-xkb-data (2) lernstick-9; urgency=medium
 
   * [ce5d5c] fixed swiss layout, added nodeadkeys variant
