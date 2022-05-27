@@ -34,25 +34,30 @@ xkb_symbols "basic" {
     # map lalt+<something> to ralt+<something>
     # This is needed because Mac users are used to input curly braces,
     # square brackets, etc. with the left alt key instead of the right alt key.
-    key.type[group1] = "FIVE_LEVEL_SEMIALPHABETIC_ALT";
-    key <AE01> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE01>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE02> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE02>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE03> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE03>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE04> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE04>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE05> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE05>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE06> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE06>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE07> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE07>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE08> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE08>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE09> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE09>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE10> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE10>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE11> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE11>,mods=LevelThree,clearmods=Alt) ] };
-    key <AE12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE12>,mods=LevelThree,clearmods=Alt) ] };
-    key <AD12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AD12>,mods=LevelThree,clearmods=Alt) ] };
-    key <AC12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AC12>,mods=LevelThree,clearmods=Alt) ] };
-    key <LSGT> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<LSGT>,mods=LevelThree,clearmods=Alt) ] };
-    key <AB08> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AB08>,mods=LevelThree,clearmods=Alt) ] };
-    key <AB09> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AB09>,mods=LevelThree,clearmods=Alt) ] };
-    key <AB10> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AB10>,mods=LevelThree,clearmods=Alt) ] };
+    # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # !!! Disabled !                                                                                                              !!!
+    # !!! This clashes with some programs that really use left Alt key combinations, e.g. MuseScore where you put in horizontal   !!!
+    # !!! notes with left Alt + 3.                                                                                                !!!
+    # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    # key.type[group1] = "FIVE_LEVEL_SEMIALPHABETIC_ALT";
+    # key <AE01> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE01>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE02> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE02>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE03> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE03>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE04> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE04>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE05> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE05>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE06> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE06>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE07> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE07>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE08> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE08>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE09> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE09>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE10> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE10>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE11> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE11>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AE12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AE12>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AD12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AD12>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AC12> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AC12>,mods=LevelThree,clearmods=Alt) ] };
+    # key <LSGT> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<LSGT>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AB08> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AB08>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AB09> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AB09>,mods=LevelThree,clearmods=Alt) ] };
+    # key <AB10> { actions = [ NoAction(), NoAction(), NoAction(), NoAction(), RedirectKey(key=<AB10>,mods=LevelThree,clearmods=Alt) ] };
 };
 
 hidden partial alphanumeric_keys
