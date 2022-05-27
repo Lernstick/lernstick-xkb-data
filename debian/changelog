@@ -1,3 +1,9 @@
+lernstick-xkb-data (4) lernstick-11; urgency=medium
+
+  * [8d704a] removed left Alt redirections (clash with MuseScore)
+
+ -- Ronny Standtke <ronny.standtke@gmx.net>  Fri, 27 May 2022 23:13:18 +0200
+
 lernstick-xkb-data (3) lernstick-9; urgency=medium
 
   * [dffdce] don't redirect umlaut keys (breaks CapsLock handling)
